@@ -1,7 +1,7 @@
 h1,
 h2,
 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #4aaaa5;
 }
 
@@ -10,6 +10,7 @@ h3 {
     color: white;
     background: #4aaaa5;
     padding: 15px 0px;
+    margin:0;
 }
 
 body {
@@ -45,8 +46,13 @@ header {
 }
 
 .row img {
-    width: 300px;
-    height: 250px;
+    width:100%;
+    
+}
+
+.wrapper{
+  max-width: 300px;
+  position: relative;
 }
 
 .thumbnail {
@@ -55,7 +61,7 @@ header {
 
 .caption {
     position: absolute;
-    top: 65%;
+    bottom:20px;
     left: 0;
     width: 100%;
 }
