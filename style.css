@@ -1,0 +1,79 @@
+h1,
+h2,
+{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4aaaa5;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background: #4aaaa5;
+    padding: 15px 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./img/gravel.png);
+}
+
+header {
+  border-bottom: lightgrey solid 2px;
+}
+
+#navbarNav {
+  margin-right: 15%;
+}
+
+.logo {
+  margin-left: 10%;
+  background: #4aaaa5;
+  color: white;
+  padding: 0 5px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.logo h2 {
+  color: white;
+}
+
+.container {
+  background: white;
+  border: 1px lightgrey solid;
+  box-shadow: 10%, 5%, 5% rgb(175, 14, 14);
+}
+
+.row img {
+    width: 300px;
+    height: 250px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+}
+
+.portfolio-images {
+    display: inline;
+}
+
+@media screen and (min-width:980px){
+
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:640px){
+    #navbarNav {
+        width: 100%;
+    }
+}
