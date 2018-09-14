@@ -1,16 +1,15 @@
 h1,
-h2,
-{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #4aaaa5;
 }
 
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    background: #4aaaa5;
-    padding: 15px 0px;
-    margin:0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background: #4aaaa5;
+  padding: 15px 0px;
+  margin: 0;
 }
 
 body {
@@ -24,6 +23,10 @@ header {
 
 #navbarNav {
   margin-right: 15%;
+}
+
+.navbar-brand {
+  margin-right: 0;
 }
 
 .logo {
@@ -46,40 +49,41 @@ header {
 }
 
 .row img {
-    width:100%;
-    
+  width: 100%;
 }
 
-.wrapper{
+.wrapper {
   max-width: 300px;
   position: relative;
 }
 
 .thumbnail {
-    position: relative;
+  position: relative;
 }
 
 .caption {
-    position: absolute;
-    bottom:20px;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
 }
 
 .portfolio-images {
-    display: inline;
+  display: inline;
 }
 
-@media screen and (min-width:980px){
-
+footer {
+  background: #666;
 }
 
-@media screen and (max-width:768px){
-    
+@media screen and (min-width: 980px) {
 }
 
-@media screen and (max-width:640px){
-    #navbarNav {
-        width: 100%;
-    }
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  #navbarNav {
+    width: 100%;
+  }
 }
